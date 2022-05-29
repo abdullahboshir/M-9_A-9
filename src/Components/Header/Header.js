@@ -1,10 +1,17 @@
 import React from 'react';
+import CustomLink from '../CustomLink/CustomLink';
+import './header.css'
 
 const Header = () => {
     return (
-        <div>
-            <h1>Hello Header</h1>
-        </div>
+        <nav className='header-container'>
+            {/* <CustomLink to = '/'></CustomLink> */}
+            <CustomLink to = '/home'>HOME</CustomLink>
+            <CustomLink to = '/review'>RIVIEW</CustomLink>
+            <CustomLink to = '/dashboard'>DASHBOARD</CustomLink>
+            <CustomLink to = '/blogs'>BLOGS</CustomLink>
+            <CustomLink to = '/about'>ABOUT</CustomLink>
+        </nav>
     );
 };
 

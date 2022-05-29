@@ -1,0 +1,10 @@
+.header-container{
+    display: flex;
+    justify-content: center;
+    background-color: #00001c;
+}
+
+.header-container a{
+    padding-left: 30px;
+    text-decoration: none;
+}
