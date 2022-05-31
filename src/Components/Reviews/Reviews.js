@@ -1,9 +1,17 @@
 import React from 'react';
+import './reviews.css'
 
-const Reviews = () => {
+const Reviews = ({users, ReviewsUi}) => {
+  console.log(ReviewsUi)
     return (
-        <div>
-            <h1>This is Review</h1>
+      <div className='reviews-container'>
+  
+          {
+            users.map(reviewDetails => <ReviewsUi
+            key={reviewDetails.id}
+            reviewDetails = {reviewDetails}
+            />)
+          }
         </div>
     );
 };

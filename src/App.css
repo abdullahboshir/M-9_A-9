@@ -1,9 +1,9 @@
 body{
-  background-color: #00001c;
-  box-sizing: border-box;
+  background-color: #010415;
 }
 .App {
-  text-align: center;
+  color: white;
+  margin-top: 50px;
 }
 
 .App-logo {

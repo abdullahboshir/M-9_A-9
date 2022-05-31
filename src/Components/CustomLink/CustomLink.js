@@ -9,13 +9,13 @@ function CustomLink({ children, to, ...props }) {
     return (
       <div>
         <Link
-          style={{ fontWeight: match ?  "bold"  : "" }}
+          style={{ fontWeight: match ?  "bold" : "" }}
           to={to}
           {...props}
         >
           {children}
         </Link>
-        {match && " (active)"}
+        {/* {match && "(active)"} */}
       </div>
     );
   }

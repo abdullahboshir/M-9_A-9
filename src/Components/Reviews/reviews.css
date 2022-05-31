@@ -1,0 +1,24 @@
+ .reviews{
+     box-shadow: rgb(7, 234, 234) 0px 1px 2px 0px;
+     border-radius: 10px;
+     margin: 0 auto;
+     width: 330px;
+     height: 250px;
+     padding: 5px 30px;
+     margin-top: 15px;
+}
+
+.reviews:hover{
+    box-shadow: rgba(46, 240, 191, 0.4) 5px 5px, rgba(46, 240, 211, 0.3) 10px 10px, rgba(46, 240, 211, 0.153) 15px 15px, rgba(46, 240, 208, 0.1) 20px 20px, rgba(46, 240, 214, 0.05) 25px 25px;
+}
+
+.comment-img-name{
+    display: flex;
+    align-items: center;
+}
+
+.comment-img-name img{
+    width: 50px;
+    height: 50%;
+    border-radius: 50%;
+}
