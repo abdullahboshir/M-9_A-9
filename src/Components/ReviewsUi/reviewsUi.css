@@ -7,7 +7,8 @@
 }
 
  .reviews{
-     box-shadow: rgb(7, 234, 234) 0px 1px 2px 0px;
+    box-shadow: rgb(7, 234, 234) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+     /* box-shadow: rgb(7, 234, 234) 0px 1px 2px 0px; */
      background-color: #19213a;
      border-radius: 6px;
      margin: 0 auto;
@@ -45,7 +46,7 @@
 }
 
 .reviews:hover{
-    box-shadow: rgba(46, 240, 191, 0.4) 5px 5px, rgba(46, 240, 211, 0.3) 10px 10px, rgba(46, 240, 211, 0.153) 15px 15px, rgba(46, 240, 208, 0.1) 20px 20px, rgba(46, 240, 214, 0.05) 25px 25px;
+    box-shadow: rgb(7, 234, 234) 0px 2px 4px 0px, rgb(4, 205, 205) 0px 2px 16px 0px;
 }
 
 .img-rating-star{
