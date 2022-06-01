@@ -34,11 +34,16 @@
     border-radius: 5px;
     padding: 10px 25px;
     color: #aae4d5;
+    margin-top: 10px;
 }
 
 .products-info button:hover {
     background-color: #aae4d5;
     color: #020723;
+}
+
+.products-info p{
+    margin-top: 0;
 }
 
 

@@ -1,18 +1,62 @@
-import React from 'react';
-import './reviewsUi.css'
+// import React, { useState } from 'react';
+import './reviewsUi.css';
+import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import { BsStarHalf } from "react-icons/bs";
 
 const ReviewsUi = ({reviewDetails}) => {
-    const {name, email, img, body} = reviewDetails;
+
+    const {name, email, img, body, rating} = reviewDetails;
+
+    // const [h , setH] = useState(true)
+    // let j = rating  
+
     return (
           <div className='reviews'>
-         <div className='comment-img-name'>
-            <img src={img} alt="" />
-            <h2>{name}</h2>
+            <div className='img-rating-star'>
+         <div className='img-rating'>
+            <div><img src={img} alt="" /></div>
+
+            <div className='rating'>
+            {
+               rating === '4.50/5.00' ?
+                <div>
+                <AiFillStar/>
+                <AiFillStar/>
+                <AiFillStar/>
+                <AiFillStar/>
+                <BsStarHalf/>
+                {/* <AiOutlineStar /> */}
+                </div>
+               : rating === '4.00/5.00' ?
+                 <div  >
+                <AiFillStar/>
+                <AiFillStar/>
+                <AiFillStar/>
+                <AiFillStar/>
+                <AiOutlineStar />
+              </div>
+              : <div>
+              <AiFillStar/>
+              <AiFillStar/>
+              <AiFillStar/>
+              <AiFillStar/>
+              <AiFillStar/>
+            </div>
+            } 
+            {rating}
+
           </div>
+          </div>
+          <div>
+            <h5>{name} <br></br> <p>By reviewed</p></h5>
+          </div>
+          </div>
+          
+          <h3>{body.length > 25? body.slice(0, 25) + ".." : ""}</h3>
+
           <div className='comment-details'>
            <p title={body}>
-           {body.length > 20? body.slice(0, 160) + "..." : body} </p>
-           <h3><small>Email:{email}</small></h3>
+           {body.length > 20? body.slice(0, 100) + "..." : body} </p>
           </div>
           </div>
     );
