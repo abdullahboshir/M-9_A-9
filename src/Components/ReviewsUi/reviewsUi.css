@@ -2,16 +2,18 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+    width: 1230px;
+    margin: 0 auto;
 }
 
  .reviews{
      box-shadow: rgb(7, 234, 234) 0px 1px 2px 0px;
      background-color: #19213a;
-     border-radius: 10px;
+     border-radius: 6px;
      margin: 0 auto;
-     width: 330px;
-     height: 250px;
-     padding: 20px 20px;
+     width: 350px;
+     height: 240px;
+     padding: 15px 20px;
      margin-top: 15px;
 
 }
@@ -22,9 +24,14 @@
     justify-content: space-between;
 }
 
-/* .comment-details p{
-    text-align:center;
-} */
+.comment-details small{
+    font-size: 16px;
+    color: #a6a6a6;
+}
+
+.comment-details p{
+    color: #f1f1f1;
+}
 
 .img-rating-star h5{
     margin: 5px 0;

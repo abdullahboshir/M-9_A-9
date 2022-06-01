@@ -5,7 +5,7 @@ import { BsStarHalf } from "react-icons/bs";
 
 const ReviewsUi = ({reviewDetails}) => {
 
-    const {name, email, img, body, rating} = reviewDetails;
+    const {name, date, img, body, rating} = reviewDetails;
 
     // const [h , setH] = useState(true)
     // let j = rating  
@@ -52,11 +52,12 @@ const ReviewsUi = ({reviewDetails}) => {
           </div>
           </div>
           
-          <h3>{body.length > 25? body.slice(0, 25) + ".." : ""}</h3>
+          <h3>{body.length > 30? body.slice(0, 30) + "." : ""}</h3>
 
           <div className='comment-details'>
            <p title={body}>
            {body.length > 20? body.slice(0, 100) + "..." : body} </p>
+           <small>Reviews date: {date}</small>
           </div>
           </div>
     );
