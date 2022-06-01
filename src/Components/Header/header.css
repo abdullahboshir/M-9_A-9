@@ -5,7 +5,35 @@
 }
 
 .header-container a{
-    padding-left: 30px;
     text-decoration: none;
+    
+}
+
+.liItem{
+    list-style: none;
+}
+.liItem a{
     color: white;
+    margin: 0 17px;
+    text-transform: uppercase;
+}
+
+.nav{
+    border-bottom: 5px solid #aae4d5;
+    /* font-size: 15px; */
+    
+}
+
+.nav-item{
+    border-bottom: 5px solid #616161;
+}
+
+li .nav-item{
+    padding: 7px 8px;
+}
+
+li .nav{
+    font-weight: bold;
+    padding: 7px 8px;
+    color: #aae4d5;
 }
