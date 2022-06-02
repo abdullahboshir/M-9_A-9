@@ -7,7 +7,7 @@ const AllReviews = () => {
     const [users, setUsers] = Users();
     return (
         <div>
-            <h1>Our Customers Feedback: ({users.length})</h1>
+            <h1 style={{textAlign: "center" }}>Our Customers Feedback: ({users.length})</h1>
             <div>
                 <Reviews users = {users} ReviewsUi = {ReviewsUi}></Reviews>
             </div>

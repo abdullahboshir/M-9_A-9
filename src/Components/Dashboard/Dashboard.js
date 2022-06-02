@@ -1,17 +1,17 @@
 import React from 'react';
-import { Button, ButtonGroup } from 'react-bootstrap';
-import { FaBeer } from 'react-icons/fa';
+import CustomShapeBarChart from '../Charts/CustomShapeBarChart';
+import DomainRadarChart from '../Charts/DomainRadarChart';
+import PercentAreaChart from '../Charts/PercentAreaChart'
 
 const Dashboard = () => {
     return (
-        <div>
-            <h1>This is Dashboard <FaBeer /></h1>
-            <ButtonGroup aria-label="Basic example">
-                <Button variant="secondary">Left</Button>
-                <Button variant="secondary">Middle</Button>
-                <Button variant="secondary">Right</Button>
-            </ButtonGroup>
+       <div style={{display: "flex", textAlign: "center", justifyContent: "center", width: "100%"}}>
+            <div>
+         <PercentAreaChart></PercentAreaChart>
+         <DomainRadarChart></DomainRadarChart>
+         <CustomShapeBarChart></CustomShapeBarChart>
         </div>
+       </div>
     );
 };
 

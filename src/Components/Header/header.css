@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: #00001c;
+    margin-bottom: 50px;
 }
 
 .header-container a{
@@ -23,7 +24,6 @@
     border-top: 2px solid #aae4d5; */
     border-left: 3px solid #aae4d5;
     border-radius: 5px;
-    
 }
 
 .nav-item{

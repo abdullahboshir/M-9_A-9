@@ -25,19 +25,20 @@
     
 }
 
-.products-info button {
+
+.products-info button, .see-all-btn button {
     transition: .400s ease-in;
     background-color: transparent;
     border: 2px solid #aae4d5;
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
-    padding: 10px 25px;
+    padding: 9px 20px;
     color: #aae4d5;
     margin-top: 10px;
 }
 
-.products-info button:hover {
+.products-info button:hover, .see-all-btn button:hover {
     background-color: #aae4d5;
     color: #020723;
 }
@@ -49,5 +50,12 @@
 
 .products-img img {
     width: 730px;
+}
+
+.see-all-btn button{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 

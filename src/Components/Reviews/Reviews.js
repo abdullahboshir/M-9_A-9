@@ -2,7 +2,6 @@ import React from 'react';
 import './reviews.css'
 
 const Reviews = ({users, ReviewsUi}) => {
-  console.log(ReviewsUi)
     return (
       <div className='reviews-container'>
   

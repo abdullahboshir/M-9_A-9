@@ -57,7 +57,7 @@ const ReviewsUi = ({reviewDetails}) => {
           <div className='comment-details'>
            <p title={body}>
            {body.length > 20? body.slice(0, 100) + "..." : body} </p>
-           <small>Reviews date: {date}</small>
+           <small>Review date: {date}</small>
           </div>
           </div>
     );

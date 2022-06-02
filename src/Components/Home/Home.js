@@ -27,9 +27,11 @@ const Home = () => {
 
             </div>
 
-            <div>
+            <div className='see-all-btn'>
                 <h1 className='review'>Customer Reviews ({ShowsProducs.length})</h1>
+
                 <Reviews users = {ShowsProducs} ReviewsUi = {ReviewsUi}/>
+                
                 <button onClick={() => navigate('/allreviews')}>
                     See All Reviews
                 </button>
