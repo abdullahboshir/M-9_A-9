@@ -1,9 +1,10 @@
 import React from 'react';
+import  Accordion  from '../Accordion/Accordion';
 
 const Blogs = () => {
     return (
         <div>
-            <h1>This is Blogs</h1>
+            <Accordion></Accordion>
         </div>
     );
 };
