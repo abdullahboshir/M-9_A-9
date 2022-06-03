@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import AccordionUi from './AccordionUi';
+import './accordionUi.css'
 
 const Accordion = () => {
     const accordionData = [
@@ -24,7 +25,7 @@ const Accordion = () => {
         <div>
             <h2 style={{textAlign: "center"}}>Answer to the question</h2>
 
-            <ul style={{padding: "0"}}>
+            <ul className='accordion' style={{padding: "0"}}>
                 {
                     accordionData.map((data, i) => <AccordionUi 
                     active = {clicked === i}

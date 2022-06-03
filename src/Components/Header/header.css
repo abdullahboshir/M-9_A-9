@@ -20,16 +20,13 @@
 }
 
 .nav{
-    /* border-bottom: 2px solid #aae4d5;
-    border-top: 2px solid #aae4d5; */
+  
     border-left: 3px solid #aae4d5;
     border-radius: 5px;
 }
 
 .nav-item{
-    /* border-bottom: 5px solid #616161; */
-    /* border-bottom: 2px solid #616161;
-    border-top: 2px solid #616161; */
+   
     border-left: 3px solid #616161;
     border-radius: 5px;
     
@@ -37,8 +34,6 @@
 
 .nav-item:hover{
     transition: .400s ease-in;
-    /* border-bottom: 2px solid #aae4d5;
-    border-top: 2px solid #aae4d5; */
     border-left: 3px solid #aae4d5;
     color: #aae4d5;
     border-radius: 5px;

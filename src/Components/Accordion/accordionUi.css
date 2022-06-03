@@ -1,3 +1,4 @@
+
 .accordion-container li {
     list-style: none;
     display: flex;
@@ -7,78 +8,79 @@
 }
 
 
-
 .active {
     background-color: aquamarine;
     color: rgb(2, 2, 66);
-   
+
 }
 
 .acc-btn {
-    background-color: rgb(71, 209, 163);
+    background-color: #57bda1;
     width: 90%;
     height: 46px;
     border: 0;
     margin: 3px 0;
 }
 
-.que-p{
+
+.que-p {
     display: flex;
     justify-content: space-between;
-     padding: 0 20px;
+    padding: 0 20px;
 }
 
 .acc-ans-none {
     display: none;
 }
 
-.drop-down-on{ 
+.drop-down-on {
     width: 25px;
     height: 3px;
     border-top: 3px solid #fff;
     margin-top: 21px;
-  }
+}
 
-  
+
 .drop-down-off {
-  width: 25px;
-  height: 25px;
+    width: 25px;
+    height: 25px;
 }
 
 .drop-down-off:before {
-  content: '';  
-  width: 25px;
-  height: 1px;
-  border-top: 3px solid #fff;
-  display: block;
-  position: absolute;
-  margin-top: 21px;
-  margin-left: 0px;
+    content: '';
+    width: 25px;
+    height: 1px;
+    border-top: 3px solid #fff;
+    display: block;
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 0px;
 }
 
 .drop-down-off:after {
-  content: '';  
-  width: 1px;
-  height: 25px;
-  border-right: 3px solid #fff;
-  display: block;
-  position: absolute;
-  margin-top: 10px;
-  margin-left: 10px;
+    content: '';
+    width: 1px;
+    height: 25px;
+    border-right: 3px solid #fff;
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
-.acc-ans{
+.acc-ans {
     width: 90%;
     margin-bottom: 45px;
 }
-.que-p p{
+
+.que-p p {
     font-size: 16px;
     margin-top: 13px;
+    color: white;
 }
 
-.acc-ans p{
+.acc-ans p {
     width: 90%;
     font-size: 16px;
     margin-top: 8px;
 }
-
