@@ -14,7 +14,13 @@ const NotFound = () => {
              <br />
             <button style={{width: "150px", marginRight: "10px"}} className = "about-btn" onClick={() => navigate("/home")}>Go to Home</button>
            <div>
-           <img style={{width: "370px", top: "135px", marginLeft: "330px", position: "absolute"}} src={img} alt="" />
+
+           <span className="notAPage" style={{width: "80px", top: "0", marginLeft: "550px", position: "absolute", height: "800px"}} src={img} alt="" />
+
+           <img style={{width: "270px", top: "225px", marginLeft: "330px", position: "absolute"}} src={img} alt="" />
+{/* 
+           <img style={{width: "370px", top: "135px", marginLeft: "330px", position: "absolute"}} src={img} alt="" /> */}
+
            </div>
         </div>
     );

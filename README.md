@@ -6,4 +6,7 @@
 
 
 Basically I used  in this assignment
-* Custom hooks
+* Custom hooks.
+* 404 Page.
+* Navigate
+* Destructuring
